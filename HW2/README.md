@@ -2,6 +2,10 @@
 
 相信大家对于 `井字棋` 这个游戏一定不陌生，今天我们就用Unity3D做一款简单的井字棋小游戏。
 
+视频地址：[HERE](https://www.bilibili.com/video/av67642550/)
+
+博客地址：[HERE](https://blog.csdn.net/WeiXiaoAssassin/article/details/100813291)
+
 [TOC]
 
 ## 游戏介绍
