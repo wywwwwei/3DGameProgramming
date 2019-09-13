@@ -61,7 +61,7 @@ GamePlay 则是负责实现一些游戏的控制（电脑的移动/胜利的检�
 
   > 值得注意一点是，Unity3D现在建议使用SceneManagement中的SceneManager来实现场景的切换，如果依然使用Application.LoadLevel，Unity就会发出警告
   >
-  > ![warn](pic/Warn-1568395292091.PNG)
+  > ![warn](https://raw.githubusercontent.com/wywwwwei/3DGameProgramming/master/HW2/pic/Warn.PNG)
 
   ```objective-c
   //Add Button and click event
@@ -164,21 +164,21 @@ GamePlay 则是负责实现一些游戏的控制（电脑的移动/胜利的检�
   float baseY = screenHeight/6;
   for(int i = 0;i < 3;i++)
   {
-  		for(int j = 0;j < 3;j++)
-  		{
-  				string text;
-              	GamePlay.Status temp = controller.getMap(i,j);
-              	if(temp==GamePlay.Status.Player1)
-              			text = "X";
-              	else if(temp==GamePlay.Status.Player2)
-              			text = "O";
-              	else
-              			text = " ";
-              	if(GUI.Button(new Rect(baseX+j*perGridWidth, baseY+i*perGridHeight, perGridWidth, perGridHeight), text))
-             		{
-  						OnGridClick(i,j);
-  				}
-  		}
+          for(int j = 0;j < 3;j++)
+          {
+                  string text;
+                  GamePlay.Status temp = controller.getMap(i,j);
+                  if(temp==GamePlay.Status.Player1)
+                          text = "X";
+                  else if(temp==GamePlay.Status.Player2)
+                          text = "O";
+                  else
+                          text = " ";
+                  if(GUI.Button(new Rect(baseX+j*perGridWidth, baseY+i*perGridHeight, perGridWidth, perGridHeight), text))
+                  {
+                          OnGridClick(i,j);
+                  }
+          }
   } 
   GUI.enabled = true;//起到部分禁用的效果
   ```
