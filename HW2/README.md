@@ -54,7 +54,7 @@ GamePlay 则是负责实现一些游戏的控制（电脑的移动/胜利的检�
   fontStyle.alignment = TextAnchor.MiddleCenter;
   fontStyle.fontSize = 40;
   fontStyle.normal.textColor = Color.red;
-  GUI.Label(new Rect((screenWidth-titleWidth)/2, (screenHeight-titleHeight)*2/5, 		  titleWidth, titleHeight), "Tic Tac Toe",fontStyle);
+  GUI.Label(new Rect((screenWidth-titleWidth)/2, (screenHeight-titleHeight)*2/5, titleWidth, titleHeight), "Tic Tac Toe",fontStyle);
   ```
 
 - 开始游戏/退出 按键
@@ -169,15 +169,15 @@ GamePlay 则是负责实现一些游戏的控制（电脑的移动/胜利的检�
               string text;
               GamePlay.Status temp = controller.getMap(i,j);
               if(temp==GamePlay.Status.Player1)
-              	text = "X";
+              	  text = "X";
               else if(temp==GamePlay.Status.Player2)
-              	text = "O";
+              	  text = "O";
               else
-              	text = " ";
+              	  text = " ";
               if(GUI.Button(new Rect(baseX+j*perGridWidth, baseY+i*perGridHeight, perGridWidth, perGridHeight), text))
              	{
-  				OnGridClick(i,j);
-  			}
+  				        OnGridClick(i,j);
+  			      }
   		}
   } 
   GUI.enabled = true;//起到部分禁用的效果
