@@ -288,7 +288,7 @@
     
   - 效果展示
   
-    > 由于调的速度过快(方便截图)所以，部分轨迹不太圆滑，在Inspector面板调整给出的速度变量即可
+    > 由于调的速度过快(方便截图)所以，部分轨迹不太圆滑，先将脚本中方便演示的初始值删掉，再在Inspector面板调整给出的速度变量即可。
   
     ![track](https://raw.githubusercontent.com/wywwwwei/3DGameProgramming/master/HW3/pics/track.PNG)
 
