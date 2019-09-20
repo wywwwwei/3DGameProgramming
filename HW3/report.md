@@ -246,7 +246,7 @@
 
 - 写一个程序，实现一个完整的太阳系， 其他星球围绕太阳的转速必须不一样，且不在一个法平面上。
 
-  项目及报告地址：[Github]()
+  项目及报告地址：[Github](https://github.com/wywwwwei/3DGameProgramming/tree/master/HW3/Solar%20System)
   
   - 制作预设
   
