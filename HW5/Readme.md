@@ -1,5 +1,6 @@
 # 简单的鼠标打飞碟（Hit UFO）游戏
 
+[博客地址](https://blog.csdn.net/WeiXiaoAssassin/article/details/102487093)
 [视频演示](https://www.bilibili.com/video/av70766609/)
 
 [TOC]
