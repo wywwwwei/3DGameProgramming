@@ -1,5 +1,7 @@
 # 简单的鼠标打飞碟（Hit UFO）游戏
 
+[视频演示](https://www.bilibili.com/video/av70766609/)
+
 [TOC]
 
 ## 作业要求
